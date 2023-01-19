@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset='UTF-8'/>
+    <meta content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+   
+    <div class="container">
+    
+    <div class="header"><h1 id="title">PinkTech Nails Survey Form</h1>
+    
+    <p id="description"><b><em>Thank you for your support!!!<br/>Please let us know how we can improve on our services</em></b></p>
+    </div>
+    <form id="survey-form">
+
+      <fieldset><div><label id="name-label">Name:<input placeholder="Enter your name" required id="name"type="text"/></label></div>
+      <div><br/><label id="email-label">Email:<input placeholder="Enter your email" type="email"required id="email"/></label></div>
+      <div><br/><label id="number-label">Age(optional):<input min="13" placeholder="Age"max="65" type="number" id="number"/></label></div>
+      </fieldset>
+     <div><br/><legend>How did you hear about us?</legend><select id="dropdown">
+        <option hidden>(select option)</option>
+        <option>Through a friend</option>
+        <option>Social media</option>
+        <option>Promotional ads/vids</option>
+        <option>Television</option>
+        <option>Newspaper/poster</option>
+        
+      </select>
+      </div>
+    <fieldset>
+
+        <label>Would you recommend PinkTech to a friend?<br/><input type="radio" value="option1" name="rbutton"/>Definitely</label>
+      <br/><label><input value="option2" type="radio" name="rbutton"/>Maybe</label>
+      <br/><label><input value="option3" type="radio" name="rbutton"/>Not sure</label>
+    </fieldset>
+    
+  <fieldset>
+    <label>What would you like to see improved at PinkTech?</label>
+    <br/><label><input type="checkbox" value="cb"/>Product range and delivery</label>
+    <br/><label><input type="checkbox" value="cb"/>Customer service</label>
+    
+    <br/><label><input type="checkbox" value="cb"/>Refreshments</label>
+    <br/><label><input type="checkbox" value="cb"/>Appointment-booking</label>
+    <br/><label><input type="checkbox" value="cb"/>Comfortability</label>    
+    </fieldset>
+    <fieldset class='comments'><legend>Any comments or suggestions?</legend><textarea placeholder="Additional comments..."></textarea></fieldset>
+   <div><button id="submit" type="submit">Submit</button></div>
+    </form>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1{text-align:center;
+color:#FA26A0;
+font-family: MS Serif;
+font-size:50px;
+}
+p{text-align:center;
+
+}
+
+
+body{
+  background-color: #FFC5D0; 
+  font-family:sans-serif;
+  margin:100px 25px;
+
+}
+select{
+  width:180px;
+}
+fieldset{border:0;
+margin: 25px auto;
+padding:0;}
+{width:100px;
+
+}
+.container{width:500px;
+margin: 80px auto;
+background-color:#EDE7DC;
+margin: 0 auto;
+color:#333652;
+
+}
+textarea{width:350px;
+height:20vh;
+  }
+
+  button{color: #EF7C8E;
+  width: 300px;
+  height:7vh;
+  margin: 0 auto;
+  display: block;
+
+
+
+** end of undefined **
+
