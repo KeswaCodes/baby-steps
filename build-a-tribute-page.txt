@@ -1,0 +1,119 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <main id="main">
+
+      <h1 id="title">Winnie Madikizela-Mandela</h1>
+      <p id="description">A heroine in the fight against apartheid.</p>
+  <div id="img-div">
+
+    <img id="image" src="https://cutt.ly/r9aDBWP" alt="Winnie Mandela walking out of prison with her husband Nelson Mandela."/>
+    <figcaption id="img-caption"><em>Winnie Madikizela-Mandela, beside Nelson Mandela, on the day of his release from Victor Verster prison on the 11th of February 1990.</em> </figcaption>
+  </div>
+
+  <div class="tribute-header"id="tribute-info">
+
+    <strong>Here is a time line of Winnie Madikizela-Mandela's life:
+  </strong></div>
+
+  <div id="tribute"class="timeline">
+    <ul>
+
+      <li><span class="date">1936 : </span>Madikizela-Mandela is born in Mbongweni, Transkei, in the Eastern Cape.</li>
+      <li><span class="date">1953 : </span>She moves to Johannesburg after being admitted at the Jan Hofmeyr School of Social Work.</li>
+      <li><span class="date">1962 : </span>Madikizela-Mandela is banned by the apartheid government and her movements restricted to the magisterial district of Johannesburg. The order also stipulated that she is not permitted to be quoted in the media. This follows the arrest of her husband during the previous year.</li>
+      <li><span class="date">1965 : </span>A severe banning order is handed to Madikizela-Mandela, limiting her movements and barring her from moving anywhere other than her neighbourhood of Orlando West.</li>
+      <li><span class="date">1969 : </span>Madikizela-Mandela’s home is raided. She is arrested and kept in solitary confinement for 17 months. For the first 200 days she has no formal contact with any one, except for her interrogator Major Theunis Swanepoel, a notorious torturer.</li>
+      <li><span class="date">1973 : </span>Madikizela-Mandela is arrested again for meeting with another banned person, a photographer for Drum magazine, Peter Magubane. She is handed a 12-month sentence.
+
+ </li>
+      <li><span class="date">1977 : </span>Known as the year of the Brandfort banishment, Madikizela-Mandela is sent to the small town, 400 kilometres away from Johannesburg, for eight years.
+
+ </li>
+      <li><span class="date">1986 : </span>She returns to her home at 8115 Vilakazi Street, Orlando West, in Soweto. This was also the same year of the formation of the Mandela United Football Club (MUFC).
+
+ </li>
+      <li><span class="date">1990 : </span>Madikizela-Mandela is present when Nelson Mandela is released from Victor Verster Prison.
+
+ </li>
+      <li><span class="date">1992 : </span>She becomes President of the ANC Women’s League (ANCWL).
+
+ </li>
+      <li><span class="date">1994 : </span>She is appointed Deputy Minister of Arts, Culture, Science and Technology, but is dismissed the following year for allegations of financial mismanagement.
+
+ </li>
+      <li><span class="date">2016 : </span> Madikizela-Mandela celebrates her 80th birthday at a gala at Cape Town’s Mount Nelson Hotel with family, friends and colleagues,
+including President Cyril Ramaphosa.  </li>
+      <li><span class="date"> 2018 : </span>Winnie-Madikizela Mandela dies.</li>
+      
+    </ul>
+      
+
+
+
+  </div>
+
+
+
+<div class="journey"id="life-story"><em>If you have enough time, you can read more about this wonderful woman <a id="tribute-link"href="https://cutt.ly/J9aCV3T" target="_blank">here.</em></a><div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+ img {
+  max-width:100%;
+  height:auto;
+  object-fit:cover;
+  margin: auto;
+  display:block;
+  
+  
+  
+}
+h1{text-align:center;
+padding-top: 70px;
+font-family:monospace;
+font-size: 40px;
+}
+
+body{background-color:#EFE7D3;}
+
+p{text-align:center;
+font-family:Georgia;}
+figcaption{text-align:center;
+
+padding:30px;
+font-size:18px;}
+
+.tribute-header{ text-align:center;
+font-family:Georgia;
+font-size: 28px;
+padding: 20px;
+}
+
+span{font-weight:900;}
+li{padding:10px;
+font-size:20px;}
+.journey{text-align:center;
+font-family:cursive;}
+
+a{text-decoration:none;}
+
+ 
+
+
+
+
+** end of undefined **
+
