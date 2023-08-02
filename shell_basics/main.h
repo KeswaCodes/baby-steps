@@ -1,0 +1,16 @@
+#ifndef MAIN_H
+#define MAIN_H
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+struct node
+{
+
+char *data;
+struct node *next;
+};
+int printchar(char z);
+char *_getenv(const char *name);
+int _setenv(const char *name, const char *value, int overwrite);
+#endif

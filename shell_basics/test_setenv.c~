@@ -1,0 +1,20 @@
+#include "main.h"
+
+int main(void)
+{
+
+
+    _setenv("NEW_VAR", "World", 1);
+    _setenv("MY_VAR", "Hola", 1); 
+
+
+    char *value1 = _setenv("PATH", "Hello", 0);
+    char *value2 = _getenv("NEW_VAR");
+    char *value3 = _getenv("NOT_EXISTING_VAR");
+
+    printf("Environment variable PATH = %s\n", value1 ? value1 : "not found");
+    printf("Environment variable NEW_VAR = %s\n", value2 ? value2 : "not found");
+    printf("Environment variable NOT_EXISTING_VAR = %s\n", value3 ? value3 : "not found");
+
+    return 0;
+}
